@@ -280,7 +280,7 @@ html.js .reveal .photo img, html.js .photo.reveal img { transform: scale(1.07); 
 html.js .reveal.is-visible .photo img { transform: none; }
 html.js .reveal.is-visible .photo:hover img { transform: scale(1.03); }
 .photo--harm { border-radius: 150px 20px 20px 20px; }
-.photo--harm img { aspect-ratio: 336 / 558; object-fit: cover; }
+.photo--harm video { display: block; width: 100%; height: auto; aspect-ratio: 720 / 1282; object-fit: cover; background: var(--espresso); }
 .photo--about { border-radius: 20px 150px 20px 20px; }
 .photo--about img { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 16%; }
 
@@ -293,17 +293,6 @@ html.js .reveal.is-visible .photo:hover img { transform: scale(1.03); }
   border: 1px solid var(--gold); border-radius: 150px 20px 20px 20px;
   opacity: .55;
 }
-.reel__play {
-  position: absolute; left: 50%; top: 50%;
-  display: grid; place-items: center;
-  width: 72px; height: 72px; margin: -36px 0 0 -36px;
-  border-radius: 50%;
-  background: rgba(251, 248, 243, .92);
-  box-shadow: var(--shadow);
-  transition: transform .4s var(--ease);
-}
-.reel__play svg { width: 30px; height: 30px; fill: var(--espresso); }
-.reel:hover .reel__play { transform: scale(1.08); }
 .reel__link {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   margin-top: 30px;
