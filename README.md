@@ -1,4 +1,4 @@
-# Dra. Gabrielly Guedes · Instituto Renova
+# Dra. Gabrielly Guedes · Instituto Renova Medicina Regenerativa
 
 Landing page da Dra. Gabrielly Guedes (harmonização glútea e Hipro), The Union, Asa Sul, Brasília - DF.
 
