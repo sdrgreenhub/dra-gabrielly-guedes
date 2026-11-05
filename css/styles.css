@@ -159,6 +159,7 @@ p:last-child { margin-bottom: 0; }
 }
 .brand__text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand__text strong { font-family: var(--serif); font-size: 1.22rem; font-weight: 600; color: var(--espresso); }
+.brand__text small span { display: block; }
 .brand__text small { margin-top: 2px; font-size: .64rem; letter-spacing: .2em; text-transform: uppercase; color: var(--taupe-deep); }
 
 /* Menu do celular */
